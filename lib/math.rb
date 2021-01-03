@@ -1,23 +1,46 @@
-def addition(num1, num2)
-
+def addition (num1, num2)
+num1 = num1.to_i 
+num2 = num2.to_i
+puts num1 + num2
 end
 
-def subtraction(num1, num2)
+addition "5" , "4"
 
+def subraction (num1, num2)
+num1 = num1.to_i 
+num2 = num2.to_i
+puts num1 - num2
 end
 
-def division(num1, num2)
+subraction "10", "5"
 
+def division (num1, num2)
+num1 = num1.to_i 
+num2 = num2.to_i
+puts num1 / num2 
 end
 
-def multiplication(num1, num2)
+division "50", "2"
 
+def multiplication (num1, num2)
+num1 = num1.to_i 
+num2 = num2.to_i
+puts num1 * num2
 end
 
-def modulo(num1, num2)
+multiplication "4" , "30"
 
+def modulo (num1, num2)
+num1 = num1.to_i 
+num2 = num2.to_i
+puts num1 % num2
 end
 
-def square_root(num)
+modulo "34" , "5" 
 
+def square_root (num1)
+  num1 = num1.to_i
+puts Math.sqrt(num1)   
 end
+
+square_root "81"
